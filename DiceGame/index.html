@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset=utf-8>
+    <link rel="stylesheet" href="assets/css/style.css">
+	</head>
+	<body>
+		<div class="gameBoard">
+			<div id="mobileWarning" class="mobileWarning">
+				<div class="mobileWarning-content">
+					<h3>Please play the game in landscape mode. Thank you!</h3>
+					<button>Continue</button>
+				</div>
+			</div>
+			<div id="gameover" class="gameover">
+				<h1>GAME OVER</h1>
+				<h2>You died... Congratulations.</h2>
+				<h2>Refresh the page to restart</h2>
+			</div>
+			<div id="mainMenu" class="mainMenu">
+				<div class="mainMenu-container">
+					<div class="mainMenu-content">
+						<div id="mainMenu-home" class="mainMenu-content-home">
+							<h1>LUCKY OR DIE!</h1>
+							<ul>
+								<li id="btnMainMenu-StartGame">Start Game</li>
+								<li id="btnMainMenu-Settings">Settings</li>
+								<li id="btnMainMenu-ClickMe">Click Me</li>
+							</ul>
+						</div>
+						<div id="mainMenu-characterSelect" class="mainMenu-content-characterSelect">
+							<h1>Select A Character</h1>
+							<img data-characterPick = "0" src="assets/images/dirt.png">
+							<img data-characterPick = "1" src="assets/images/dirt.png">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="creatureBoard" class="creaturesBoard"></div>
+			<div class="ground">
+				<div class="actionMenu">
+					<div class="actionMenu-item"><button disabled="disabled" id="btnAttack">Attack</button></div>
+					<div class="actionMenu-item"><button disabled="disabled" id="btnRunAway">Run Away</button></div>
+					<div class="actionMenu-item"><button disabled="disabled" id="btnSearch">Search</button></div>
+					<div class="actionMenu-item"><button disabled="disabled" id="btnMoveOn">Move On</button></div>
+				</div>
+			</div>
+			<div class="output">
+				<div class="output-content">
+					<div id="output" class="output-textarea">
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="assets/js/dialogue.js"></script>
+		<script src="assets/js/dice.js"></script>
+		<script src="assets/js/weapon.js"></script>
+		<script src="assets/js/creature.js"></script>
+		<script src="assets/js/enemy.js"></script>
+		<script src="assets/js/player.js"></script>
+		<script src="assets/js/main.js"></script>
+	</body>
+</html>
