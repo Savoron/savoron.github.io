@@ -3,7 +3,7 @@
 *{margin:0;padding:0;}
 body{font-family: monospace;}/*font-family:"Orc Horde BB", Fallback, sans-serif;}*/
 
-.mobileWarning{display:none;padding:20px;background:rgba(0,0,0,0.8);border:4px dashed red;color:#fff;font-size:1.5em;z-index:10000;position:absolute;width:50%;margin-left:calc(50% - 25%);margin-top:100px;}
+.mobileWarning{display:none;padding:20px;background:rgba(0,0,0,0.8);border:4px dashed red;color:#fff;font-size:1.5em;z-index:9999;position:absolute;width:50%;margin-left:calc(50% - 25%);margin-top:100px;}
   .mobileWarning-content{}
   .mobileWarning-content button{margin-top:20px;width:100%;height:40px;}
 
@@ -34,13 +34,13 @@ body{font-family: monospace;}/*font-family:"Orc Horde BB", Fallback, sans-serif;
   .actionMenu-item button::before{left:-17px;background-image:url("../images/button-bg-left.png");background-size:17px 44px;}
   .actionMenu-item button::after{right:-17px;background-image:url("../images/button-bg-right.png");background-size:17px 44px;}
 
-.player{height:256px;width:128px;background:blue;position:absolute;bottom:calc(25vh + 95px);left:64px;background:url("../images/player01.png");}
-.enemy{height:256px;width:120px;background:red;position:absolute;bottom:bottom:calc(25vh + 95px);right:64px;background:url("../images/enemy01.png");}
+.player{height:256px;width:128px;background:blue;position:absolute;bottom:296px;left:64px;background:url("../images/player01.png");}
+.enemy{height:256px;width:120px;background:red;position:absolute;bottom:296px;right:64px;background:url("../images/enemy01.png");}
 
-.ground{width:100%;height:64px;position:absolute;bottom:calc(25vh + 40px);background-image:url("../images/grass.png");background-repeat:repeat-x;background-size:64px 64px;}
+.ground{width:100%;height:64px;position:absolute;bottom:240px;background-image:url("../images/grass.png");background-repeat:repeat-x;background-size:64px 64px;}
 
 .output{position:absolute;bottom:0;width:100%;background-image:url("../images/dirt.png");background-repeat:repeat;background-size:64px 64px;}
-  .output-content{font-size:1.5em;color:#bbb;padding:20px;height:25vh;max-width:1000px;margin:auto;}
+  .output-content{font-size:1.5em;color:#bbb;padding:20px;height:200px;max-width:1000px;margin:auto;}
     .output-textarea{overflow-y:scroll;height:100%;background:rgba(0,0,0,0.25);border:4px ridge #5d3e1d;}
 
 ::-webkit-scrollbar {width: 0.75em;}
