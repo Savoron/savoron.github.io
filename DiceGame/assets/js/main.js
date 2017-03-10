@@ -191,6 +191,7 @@ function core() {
 	//Main Menu Buttons//
 	document.getElementById("btnMainMenu-ClickMe").addEventListener("click",   function(){ requestGameOver() });
 	document.getElementById("btnMainMenu-StartGame").addEventListener("click", function(){ requestCharacterSelectMenu(player)});
+	document.getElementById("btnMobileWarning").addEventListener("click", function(){ document.getElementById("mobileWarning").style.display = "none"; });
 
 	//Action Menu Buttons//
 	document.getElementById("btnAttack").addEventListener("click",  function(){ requestAttack(player, enemy) });
