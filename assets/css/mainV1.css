@@ -8,12 +8,14 @@ body {
   min-height: 100%;
 }
 
+.social_media_container {
+    width: 100%;
+}
 .social_media {
   width: 100%;
   max-width: 1000px;
-  margin: auto;
   display: flex;
-  margin: 10px 0;
+  margin: 10px auto;
 }
 
 .icon {
