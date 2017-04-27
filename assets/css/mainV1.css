@@ -13,7 +13,7 @@ body {
   max-width: 1000px;
   margin: auto;
   display: flex;
-  margin-top: 10px;
+  margin: 10px 0;
 }
 
 .icon {
@@ -32,13 +32,13 @@ body {
   opacity: 0.75;
 }
 .icon_github {
-  background-image: url("../images/icons/GitHub.png");
+  background-image: url("../images/icons/GitHub.svg");
 }
 .icon_twitter {
-  background-image: url("../images/icons/Twitter.png");
+  background-image: url("../images/icons/Twitter.svg");
 }
 .icon_other {
-  background-image: url("../images/icons/GitHub.png");
+  background-image: url("../images/icons/GitHub.svg");
 }
 
 .logo_container {
