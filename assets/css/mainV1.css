@@ -6,13 +6,14 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100%;
-  background: #eee url("../images/bg01.jpg");
+  background: #eee url("../images/bg03.jpg");
   background-size: cover;
+  background-position: center;
 }
 
 .social_media_container {
     width: 100%;
-    background: rgba(0,0,0,0.35);
+    background: rgba(0,0,0,0.2);
 }
 .social_media {
   width: 100%;
@@ -53,7 +54,7 @@ body {
   min-height: 100%;
   display: flex;
   flex-direction: column;
-  background: rgba(0,0,0,0.35);
+  background: rgba(0,0,0,0.2);
 }
 .logo {
   flex: 1;
@@ -75,7 +76,7 @@ body {
 .footer_container {
   padding: 5px;
   color: #fff;
-  background: rgba(0,0,0,0.35);
+  background: rgba(0,0,0,0.2);
 }
 
 .footer {
