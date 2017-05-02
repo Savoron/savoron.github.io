@@ -74,12 +74,12 @@ body {
 
 .footer_container {
   padding: 5px;
-  color: #000;
-  background: #fff;
+  color: #fff;
+  background: rgba(0,0,0,0.35);
 }
 
 .footer {
-  margin: auto;
+  float: right;
   max-width: 1000px;
 }
 
