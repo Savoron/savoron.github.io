@@ -11,13 +11,20 @@ var node = function() {
   this.x = null;
   this.y = null;
   this.color = "#00aaff";
+  this.shape = "circle";
   this.setRandomPosition = function() {
     this.x = getRandomInt(0, canvas.width - this.width);
     this.y = getRandomInt(0, canvas.height - this.height);
   };
   this.draw = function() {
     ctx.fillStyle = this.color;
-    ctx.fillRect(this.x - this.width/2, this.y - this.height/2, this.width, this.height);
+    if (this.shape == "circle") {
+      ctx.beginPath();
+      ctx.arc(this.x, this.y, this.width/2, 0, 2*Math.PI)
+      ctx.fill();
+    } else {
+      ctx.fillRect(this.x - this.width/2, this.y - this.height/2, this.width, this.height);
+    }
   };
 };
 
@@ -53,6 +60,8 @@ function clear() {
 }
 
 function init() {
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
   createCoreNodes(3);
   nodes[0] = new node();
   nodes[0].x = canvas.width/2;
