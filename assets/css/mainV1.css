@@ -73,6 +73,30 @@ body {
 .st0{fill:#fff;}
 .st1{fill:none;stroke:#fff;stroke-width:40;stroke-miterlimit:10;}
 
+@keyframes rotateClockwise {
+    0%   {transform: rotate(0deg)}
+    100% {transform: rotate(180deg)}
+}
+@keyframes rotateCounterClockwise {
+    0%   {transform: rotate(-0deg)}
+    100% {transform: rotate(-180deg)}
+}
+
+#p1 {
+  animation-name: rotateClockwise;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  transform-origin: center;
+  animation-timing-function: linear;
+}
+#p2 {
+  animation-name: rotateCounterClockwise;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  transform-origin: center;
+  animation-timing-function: linear;
+}
+
 .footer_container {
   padding: 5px;
   color: #fff;
