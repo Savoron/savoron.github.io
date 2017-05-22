@@ -15,7 +15,7 @@
         "",
         ".backdrop{",
         "  background-color:#000;",
-        "  background-image:url("../imgs/backdrop2.jpg");",
+        "  background-image:url(\"../imgs/backdrop2.jpg\");",
         "  width:5000px;",
         "  background-position:center;",
         "  background-repeat:repeat-x;",
@@ -34,9 +34,9 @@
         "  position:absolute;",
         "  top:0;",
         "}",
-        ".background[back]{ background:url("");}",
-        ".background[mid]{  background:url("");}",
-        ".background[front]{background:url("");}",
+        ".background[back]{ background:url(\"\");}",
+        ".background[mid]{  background:url(\"\");}",
+        ".background[front]{background:url(\"\");}",
         "}"
     ]
 }
