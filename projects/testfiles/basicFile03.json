@@ -72,7 +72,7 @@
     "    //   }",
     "    // }",
     "    return (",
-    "      <div className="TextEditor">",
+    "      <div className=\"TextEditor\">",
     "        <button onClick={this.createNewLine.bind(this)}>Add New Line</button>",
     "        <button onClick={this.updateLineText.bind(this)}>Add Some Text</button>",
     "        <button onClick={this.loadPage.bind(this)}>Load Page</button>",
