@@ -5,15 +5,15 @@
   "parent": "root",
   "project": "109156be-c4fb-41ea-b1b4-efe1671c5838",
   "lines": [
-    "import React, { Component } from 'react';
-    "import axios from 'axios';
-    "import * as FileActions from '../actions/FileActions';
-    "import Page from './TextEditor/Page';
-    "
-    "class TextEditor extends Component {
-    "  constructor() {
-    "    super();
-    "    this.state = {
+    "import React, { Component } from 'react';",
+    "import axios from 'axios';",
+    "import * as FileActions from '../actions/FileActions';",
+    "import Page from './TextEditor/Page';",
+    "",
+    "class TextEditor extends Component {",
+    "  constructor() {",
+    "    super();",
+    "    this.state = {",
     "      pageLoaded: false,",
     "      file: null,",
     "    }",
