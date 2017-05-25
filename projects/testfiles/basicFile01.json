@@ -1,7 +1,7 @@
 {
   "id": "110ec58a-a0f2-4ac4-8393-c866d813b8d1",
   "name": "basicFile",
-  "type": "js",
+  "type": "html",
   "parent": "root",
   "project": "109156be-c4fb-41ea-b1b4-efe1671c5836",
   "lines": [
