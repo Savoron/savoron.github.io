@@ -1,0 +1,53 @@
+[
+  {
+    "listingId": 1,
+    "listingTitle": "Some Title",
+    "brand": "Nike",
+    "style": "Shoe",
+    "size": 12,
+    "gender": "Male",
+    "price": 320.15,
+    "imageUrl": "https://cdn.pixabay.com/photo/2015/10/06/17/20/baby-shoes-974855_960_720.jpg",
+    "condition": "new",
+    "description": "They are pretty good",
+    "notes": "Some notes go here?",
+    "status": "Not sure what this for lol",
+    "featuredItem": false,
+    "termsOfService": true,
+    "offerPending": false
+  },
+  {
+    "listingId": 2,
+    "listingTitle": "Shoewa2wa",
+    "brand": "Spoon",
+    "style": "Fork",
+    "size": 5,
+    "gender": "Female",
+    "price": 23.45,
+    "imageUrl": "https://cdn.pixabay.com/photo/2015/10/06/17/20/baby-shoes-974855_960_720.jpg",
+    "condition": "Pretty beat up...",
+    "description": "They are pretty good or are they?",
+    "notes": "Some notes go here? Yes...",
+    "status": "Not sure what this for lol. That's great!",
+    "featuredItem": false,
+    "termsOfService": true,
+    "offerPending": false
+  },
+  {
+    "listingId": 3,
+    "listingTitle": "Some Title 2",
+    "brand": "Nike + Puma",
+    "style": "Shoe or not",
+    "size": 42,
+    "gender": "Neutral",
+    "price": 3.15,
+    "imageUrl": "https://cdn.pixabay.com/photo/2015/10/06/17/20/baby-shoes-974855_960_720.jpg",
+    "condition": "Bad",
+    "description": "They are pretty bad",
+    "notes": "Some notes go here? Nope",
+    "status": "Not sure what this for lol, That's bad!",
+    "featuredItem": false,
+    "termsOfService": true,
+    "offerPending": false
+  }
+]
