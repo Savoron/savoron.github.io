@@ -6,10 +6,11 @@
     <meta name="theme-color" content="#333">
     <title>Travis Palmer</title>
     <link rel="icon" type="image/png" href="assets/images/icons/favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/mainV1.css">
   </head>
   <body>
-    <div class="social_media_container">
+    <nav class="nav_container">
       <div class="social_media">
         <div class="icon order-1">
           <a href="https://github.com/TJ-Palmer" target="_blank">
@@ -17,35 +18,44 @@
           </a>
         </div>
         <div class="icon order-2">
-          <a href="#">
-            <div class="icon_menu"></div>
-          </a>
+          <div id="nav_btn" class="icon_menu"></div>
         </div>
         <div class="icon order-3">
-          <a href="https://github.com/TJ-Palmer" target="_blank">
-            <div class="icon_twitter"></div>
+          <a href="https://www.linkedin.com/in/tj-palmer/" target="_blank">
+            <div class="icon_linkedin"></div>
           </a>
         </div>
       </div>
-    </div>
-    <div class="logo_container">
-      <div class="logo">
+    </nav>
+    <div class="body_container">
+      <div class="logo" id="logo">
         <svg id="Layer_1" viewBox="0 0 2048 2048" xml:space="preserve">
           <rect x="503.5" y="1042.4" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -555.5804 911.3422)" class="st0" width="637.6" height="167.8"/>
       		<rect x="987.6" y="422.8" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -222.4411 979.8323)" class="st0" width="167.8" height="671.3"/>
       		<rect x="1021.5" y="1113.6" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -473.8654 1251.0597)" class="st0" width="503.5" height="167.8"/>
       		<rect x="1011.3" y="1089" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -567.9234 1142.5804)" class="st0" width="167.8" height="335.6"/>
-          <polygon id="p1" class="st1" points="1979.5,767.9 1280,68.5 324.5,324.5 68.5,1280 768,1979.5 1723.5,1723.4 "/>
-          <polygon id="p2" class="st1" points="1280,1979.5 1979.5,1280 1723.5,324.5 768,68.5 68.5,767.9 324.5,1723.4 "/>
+          <polygon id="logo_p1" class="st1" points="1979.5,767.9 1280,68.5 324.5,324.5 68.5,1280 768,1979.5 1723.5,1723.4 "/>
+          <polygon id="logo_p2" class="st1" points="1280,1979.5 1979.5,1280 1723.5,324.5 768,68.5 68.5,767.9 324.5,1723.4 "/>
         </svg>
       </div>
-    </div>
-    <div class="footer_container">
-      <div class="footer">
-        <center>
-          Site design / logo &copy 2017 Travis Palmer
-        </center>
+      <div class="menu_container" id="menu">
+        <div class="menu">
+          <h2>Web Design</h2>
+          <a href="/projects/game-co" target="_blank">Game Co</a>
+          <a href="projects/DI01" target="_blank">DI01</a>
+          <h2>Projects</h2>
+          <a href="/projects/DiceGame/backup" target="_blank">Lucky or Die!</a>
+          <a href="/projects/C5" target="_blank">Chaos Triangle</a>
+        </div>
       </div>
     </div>
+    <footer class="footer_container">
+      <div class="footer">
+        Site design / logo &copy 2017 Travis Palmer
+      </div>
+    </footer>
+    <canvas id="particles" class="particles"></canvas>
+    <script src="assets/js/nav.js"></script>
+    <script src="assets/js/particles.js"></script>
   </body>
 </html>
